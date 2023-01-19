@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470BE17029778F0A0028E87A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470BE16F29778F0A0028E87A /* Person.swift */; };
 		475E773E2977682000DDDA9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E773D2977682000DDDA9F /* AppDelegate.swift */; };
 		475E77402977682000DDDA9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E773F2977682000DDDA9F /* SceneDelegate.swift */; };
 		475E77422977682000DDDA9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77412977682000DDDA9F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		475E77552977682100DDDA9F /* Project10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77542977682100DDDA9F /* Project10Tests.swift */; };
 		475E775F2977682100DDDA9F /* Project10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E775E2977682100DDDA9F /* Project10UITests.swift */; };
 		475E77612977682100DDDA9F /* Project10UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E77602977682100DDDA9F /* Project10UITestsLaunchTests.swift */; };
+		475E776E29776A0500DDDA9F /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475E776D29776A0500DDDA9F /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		470BE16F29778F0A0028E87A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		475E773A2977682000DDDA9F /* Project10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		475E773D2977682000DDDA9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475E773F2977682000DDDA9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		475E775A2977682100DDDA9F /* Project10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project10UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		475E775E2977682100DDDA9F /* Project10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10UITests.swift; sourceTree = "<group>"; };
 		475E77602977682100DDDA9F /* Project10UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project10UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		475E776D29776A0500DDDA9F /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 		475E773C2977682000DDDA9F /* Project10 */ = {
 			isa = PBXGroup;
 			children = (
+				470BE16F29778F0A0028E87A /* Person.swift */,
 				475E773D2977682000DDDA9F /* AppDelegate.swift */,
 				475E773F2977682000DDDA9F /* SceneDelegate.swift */,
 				475E77412977682000DDDA9F /* ViewController.swift */,
 				475E77432977682000DDDA9F /* Main.storyboard */,
+				475E776D29776A0500DDDA9F /* PersonCell.swift */,
 				475E77462977682100DDDA9F /* Assets.xcassets */,
 				475E77482977682100DDDA9F /* LaunchScreen.storyboard */,
 				475E774B2977682100DDDA9F /* Info.plist */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470BE17029778F0A0028E87A /* Person.swift in Sources */,
 				475E77422977682000DDDA9F /* ViewController.swift in Sources */,
 				475E773E2977682000DDDA9F /* AppDelegate.swift in Sources */,
+				475E776E29776A0500DDDA9F /* PersonCell.swift in Sources */,
 				475E77402977682000DDDA9F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
